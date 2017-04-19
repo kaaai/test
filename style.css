@@ -1,0 +1,307 @@
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Singular
+Description: A two-column, fixed-width design with a neutral color scheme.
+Version    : 1.0
+Released   : 20121119
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #FF3867;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+	font-size: 11.5pt;
+	line-height: 2em;
+	color: #353B3A;
+	background: #D5ECE7 url(images/bg.png);
+	letter-spacing: 0.025em;
+}
+body, input {
+	font-family: Georgia, serif;
+}
+p {
+	text-align: justify;
+}
+br.clearfix {
+	clear: both;
+}
+strong {
+	color: #455350;
+}
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	font-family: Arial, sans-serif;
+}
+h2 {
+	font-size: 1.75em;
+}
+h3, h4 {
+	margin-bottom: 1.5em;
+	color: #455350;
+}
+h3 {
+	font-size: 1.25em;
+}
+h4 {
+	font-size: 1em;
+}
+img.alignleft {
+	margin: 5px 30px 30px 0;
+	float: left;
+}
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+p {
+	margin-bottom: 1.5em;
+}
+.form-control {
+	line-height: 2;
+	width: 300px;
+	margin-top: 5px;
+	font-size: 1em;
+}
+.btn_edit {
+	background-color: #FF3867;
+	padding: 8px;
+	width: 120px;
+	margin-right: 0;
+	display: inline-table;
+	float: right;
+	text-align: center;
+}
+.btn_edit a {
+	color: #fff;
+	text-decoration: none;
+}
+ul h4 {
+	margin-bottom: 0.35em;
+}
+.post {
+	overflow: hidden;
+	/*border-bottom: dashed 2px #d7dfdf;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.post-last {
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#content {
+	padding: 35px 35px 45px 35px;
+	width: 910px;
+	background: #FFF;
+	color: #595959;
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.1);
+}
+#header {
+	position: relative;
+	background: #455350;
+	width: 910px;
+	color: #000;
+	padding: 45px;
+	height: 85px;
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.15);
+	display: table-cell;
+}
+#footer {
+	text-align: center;
+	padding: 20px 0 80px 0;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	font-size: 0.75em;
+	font-family: Arial, sans-serif;
+	color: #95ADA7;
+}
+#footer a {
+	color: #95ADA7;
+}
+#logo {
+	line-height: 170px;
+	top: 0;
+	left: 35px;
+	height: 129px;
+	position: absolute;
+}
+#logo a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.075);
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
+#logo h1 {
+	font-size: 3em;
+}
+#menu {
+	padding: 0 30px 0 25px;
+	height: 46px;
+	width: 925px;
+	position: absolute;
+	/*background: #FF3867;*/
+	margin: 0;
+	line-height: 46px;
+	top: 0;
+	left: 0;
+	font-family: Arial, sans-serif;
+}
+#menu a {
+	font-size: 1.25em;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.25em;
+	padding: 5px 5px 5px 10px;
+	transition: background-color .25s ease-in-out;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+}
+#menu a:hover {
+	background: rgba(0,0,0,0.1);
+}
+#menu ul {
+	list-style: none;
+}
+#menu ul li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	float: right;
+}
+#menu ul li.first {
+	padding-left: 0;
+}
+#page {
+	position: relative;
+	padding: 0;
+	width: 980px;
+}
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+#page .section-list li {
+	clear: both;
+	padding: 20px 0 20px 0;
+}
+#page ul {
+	list-style: none;
+}
+#page ul li {
+	padding: 10px 0 10px 0;
+	border-top: dotted 1px #c7cfcf;
+}
+#page ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+#search input.form-submit {
+	background: #FF3867;
+	margin-left: 1em;
+	border: 0;
+	color: #000;
+	padding: 5px;
+}
+#search input.form-text {
+	padding: 5px;
+	border: solid 1px #C5917E;
+}
+#splash {
+	width: 930px;
+	position: relative;
+	padding: 25px;
+	background: #FFF;
+	margin: 25px 0 25px 0;
+	height: 230px;
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.1);
+}
+#wrapper {
+	margin: 35px auto 0 auto;
+	width: 980px;
+	position: relative;
+}
+.btn {
+	width: 135px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	cursor:pointer;
+}
+.btn_edit_center {
+	width: 135px;
+	margin: 0 auto;
+	background-color: #FF3867;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	cursor:pointer;
+}
+.btn_edit_center a {
+	padding: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+.btn.edit {
+	background-color: #c7cfcf;
+	display: block;
+}
+.btn.regist {
+	background-color: #cccccc;
+}
+.btn a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 2px;
+	display: block;
+}
+a:hover {
+	/*background: rgba(0,0,0,0.1);*/
+	opacity: 0.7;
+}
+/*#edit*/		
+#edit ul li.first {
+	border-top: 0;
+	padding-top: 15px;
+}
+#page #menu ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+.calender {
+	background-image: url(images/icon_calender.png);
+	background-repeat: no-repeat;
+	padding-right: 34px;
+	background-size: 9%;
+	background-position: right;
+	width: 260px;
+}
+img.star {
+	width: 3%;
+	padding-right: 7px;
+}
+ul li.star {
+	background-image: url(images/icon_favorite_star.png);
+	background-repeat: no-repeat;
+	padding-right: 34px;
+	background-size: 3%;
+	background-position: right top;
+}
+/*edit_end*/
+#center {
+	text-align: center;
+}
